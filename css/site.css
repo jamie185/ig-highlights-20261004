@@ -60,7 +60,7 @@ p { margin: 0; }
 .ig-nav .u { flex: 1; display: flex; align-items: center; gap: 4px; font-weight: 700; font-size: 18px; letter-spacing: -.01em; }
 .ig-top { display: flex; align-items: center; gap: 22px; padding: 6px 16px 0; }
 .ig-av { flex: none; width: 86px; height: 86px; border-radius: 50%; background: var(--navy); display: flex; align-items: center; justify-content: center; }
-.ig-av img { width: 58%; }
+.ig-av img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 .ig-stats-w { flex: 1; min-width: 0; }
 .ig-name { display: flex; align-items: center; gap: 4px; font-weight: 600; font-size: 15px; margin-bottom: 6px; }
 .ig-stats { display: flex; justify-content: space-between; max-width: 230px; }
