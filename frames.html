@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1180">
+<meta name="robots" content="noindex,nofollow">
+<title>Highlight Frames 1080x1920</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;650;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/frames.css">
+<style>
+  body { margin: 0; background: var(--canvas); font-family: Inter, system-ui, sans-serif; color: var(--ink); font-weight: 500; }
+  .top { max-width: 1080px; margin: 0 auto; padding: 64px 0 24px; }
+  .top h1 { font-size: 56px; font-weight: 700; letter-spacing: -.03em; line-height: 1; margin: 0 0 16px; }
+  .top p { font-size: 20px; color: var(--ink-2); margin: 0; max-width: 760px; line-height: 1.45; }
+  .top a { color: var(--ink); }
+  section { max-width: 1080px; margin: 0 auto; padding: 56px 0 0; }
+  section > h2 { display: flex; align-items: center; gap: 16px; font-size: 40px; font-weight: 700; letter-spacing: -.03em; margin: 0 0 24px; }
+  section > h2 img { width: 56px; height: 56px; border-radius: 50%; }
+  .item { margin: 0 0 48px; }
+  .item .fx { width: 1080px; box-shadow: var(--shadow); }
+  .cap { display: flex; gap: 16px; align-items: baseline; font-size: 18px; margin: 0 0 14px; }
+  .cap code { font: 600 18px ui-monospace, Menlo, monospace; }
+  .cap span { color: var(--ink-2); }
+  .hold { font-size: 18px; color: #A1462A; margin: -6px 0 14px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>New highlight frames</h1>
+  <p>Every new designed frame at 1080 × 1920, one per block, ready to screenshot to PNG by its <code>data-frame-id</code>. Ready-made assets, app recordings and archive frames are used as they are, so they are not repeated here. Back to the <a href="index.html">mock-up</a>.</p>
+</header>
+<main id="sheet"></main>
+<script src="data/network.js"></script>
+<script src="js/frames.js"></script>
+<script>
+  (function () {
+    var F = window.JF_FRAMES, out = '';
+    F.highlights.forEach(function (hl) {
+      var news = hl.frames.filter(function (f) { return f.kind === 'new'; });
+      if (!news.length) return;
+      out += '<section id="' + hl.id + '"><h2><img src="' + hl.cover + '" alt="">' + hl.label + '</h2>';
+      news.forEach(function (f) {
+        out += '<div class="item"><p class="cap"><code>' + f.id + '</code><span>' + F.esc(f.h) + '</span></p>' +
+          (f.check ? '<p class="hold">Check before publishing: ' + F.esc(f.check) + '</p>' : '') +
+          F.frameHTML(f) + '</div>';
+      });
+      out += '</section>';
+    });
+    document.getElementById('sheet').innerHTML = out;
+    /* Full-size sheet: load every image now so screenshots are complete. */
+    Array.prototype.forEach.call(document.querySelectorAll('#sheet img'), function (i) { i.loading = 'eager'; });
+  })();
+</script>
+</body>
+</html>
