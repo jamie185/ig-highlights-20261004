@@ -45,8 +45,16 @@ def select(targets, log=print, max_steps=500):
     step = 0; last_dates = None
     while step < max_steps:
         step += 1
-        res, shot = scan()
-        ids = [r for r in res if r['corr'] > 0.90]
+        # thumbnails lazy-load after a scroll: re-scan until most cells match confidently
+        prev = None
+        for _ in range(4):
+            res, shot = scan()
+            ids = [r for r in res if r['corr'] > 0.90]
+            if len(ids) >= 2: break
+            # unchanged screen = thumbnails have loaded; frames simply aren't in our index
+            sig = [round(r['corr'], 2) for r in res]
+            if sig == prev: break
+            prev = sig; time.sleep(0.8)
         for r in res:
             if r['corr'] > 0.93 and r['pk'] in want and r['pk'] not in got:
                 x, y, w, h = r['rect']
@@ -54,7 +62,7 @@ def select(targets, log=print, max_steps=500):
                 wda.tap(x + w/2, y + h/2); time.sleep(0.6)
                 got.add(r['pk']); log(f"tap {want[r['pk']]['id']} {r['date']} corr={r['corr']:.3f}")
         if ids:
-            vmin = min(r['date'] for r in ids)
+            vmin = sorted(r['date'] for r in ids)[len(ids)//2] if len(ids) >= 3 else max(r['date'] for r in ids)
             if vmin < oldest: break
             remaining = sorted([t['date'] for t in targets if t['pk'] not in got], reverse=True)
             nxt = remaining[0] if remaining else None
@@ -64,8 +72,11 @@ def select(targets, log=print, max_steps=500):
         else:
             gap = 0
         # scroll toward older content: finger moves down
-        if gap > 25: wda.swipe(196, 250, 196, 820, 120); time.sleep(1.2)
-        else: wda.swipe(196, 300, 196, 720, 600); time.sleep(0.9)
+        # controlled drags only (a flick carries momentum and skips months); more drags when far away
+        n = 1 if gap <= 12 else 2 if gap <= 30 else 4 if gap <= 90 else 7
+        for _ in range(n):
+            wda.swipe(196, 230, 196, 790, 450); time.sleep(0.35)
+        time.sleep(0.5)
     missing = [t for t in targets if t['pk'] not in got]
     return got, missing
 

@@ -1,14 +1,20 @@
 """Small WDA client for Jamie's iPhone (WDA launched from Glass Xcode, port 8112 on the phone's tailnet IP)."""
-import base64, io, json, os, sys, time, urllib.request
+import http.client, base64, io, json, os, sys, time, urllib.request
 from PIL import Image
 BASE = os.environ.get('WDA', 'http://100.92.198.79:8112')
 SIDF = os.path.join(os.path.dirname(__file__), '.sid')
 
 def req(method, path, body=None, timeout=60):
     data = None if body is None else json.dumps(body).encode()
-    r = urllib.request.Request(BASE + path, data=data, method=method, headers={'Content-Type': 'application/json'})
-    with urllib.request.urlopen(r, timeout=timeout) as f:
-        return json.loads(f.read() or b'{}')
+    for attempt in range(4):
+        r = urllib.request.Request(BASE + path, data=data, method=method, headers={'Content-Type': 'application/json'})
+        try:
+            with urllib.request.urlopen(r, timeout=timeout) as f:
+                return json.loads(f.read() or b'{}')
+        except (TimeoutError, OSError, http.client.HTTPException):
+            # only retry idempotent reads; a repeated tap could toggle a selection
+            if method != 'GET' or attempt == 3: raise
+            time.sleep(2)
 
 def session(bundle=None):
     caps = {'capabilities': {'alwaysMatch': {'appium:bundleId': bundle}}} if bundle else {'capabilities': {}}
