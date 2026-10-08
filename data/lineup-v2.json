@@ -1,0 +1,700 @@
+{
+ "generated": "2026-10-08",
+ "highlights": [
+  {
+   "key": "app",
+   "label": "JF Coach App",
+   "cover": "app",
+   "why": "Opens on the JF Coach reveal film. Every new app reveal or promo video you post gets added to the end.",
+   "frames": [
+    {
+     "id": "F1600",
+     "pk": "3997508299779963856",
+     "file": "d950868c0dcd1f63_0.jpg",
+     "date": "2026-09-30",
+     "video": true,
+     "caption": "The JF Coach app reveal film (59 seconds). Opens the highlight.",
+     "check": null
+    },
+    {
+     "id": "F1606",
+     "pk": "3999734964625877591",
+     "file": "bb4c4f0680ed1530_0.jpg",
+     "date": "2026-10-03",
+     "video": false,
+     "caption": "JF Coach week-one points leaderboard for Spring Kickstart.",
+     "check": "Week-one snapshot, fine while the challenge runs."
+    }
+   ]
+  },
+  {
+   "key": "results",
+   "label": "Results",
+   "cover": "results",
+   "why": "Show real progress in confidence, consistency, strength and body composition.",
+   "frames": [
+    {
+     "id": "F0968",
+     "pk": "3648585321471676991",
+     "file": "b453afd723d2fd7b_0.jpg",
+     "date": "2025-06-05",
+     "video": false,
+     "caption": "Client shares his before and week-19 progress photos and thanks Marcus and Jamie Fitness.",
+     "check": null
+    },
+    {
+     "id": "F0995",
+     "pk": "3696482377825521763",
+     "file": "6611f588c8b02bcf_0.jpg",
+     "date": "2025-08-11",
+     "video": true,
+     "caption": "Smiling client holds a certificate celebrating 100 completed workouts.",
+     "check": null
+    },
+    {
+     "id": "F1132",
+     "pk": "3825442527546413549",
+     "file": "2a73ab7e27e5aaff_0.jpg",
+     "date": "2026-02-04",
+     "video": true,
+     "caption": "Marcus and Molly celebrate seven personal bests on an older achievement screen.",
+     "check": null
+    },
+    {
+     "id": "F1133",
+     "pk": "3825545883870499586",
+     "file": "8290dd175290e198_0.jpg",
+     "date": "2026-02-05",
+     "video": true,
+     "caption": "Matthew demonstrates more controlled, confident bodyweight squats.",
+     "check": null
+    },
+    {
+     "id": "F1176",
+     "pk": "3838783982763220614",
+     "file": "1925df4bdac16ff0_0.jpg",
+     "date": "2026-02-23",
+     "video": true,
+     "caption": "Dane and a smiling client celebrate the client’s 25-workout milestone.",
+     "check": null
+    },
+    {
+     "id": "F1238",
+     "pk": "3853013899738585172",
+     "file": "735b21019af87e37_0.jpg",
+     "date": "2026-03-15",
+     "video": true,
+     "caption": "Client Flynn squats a loaded barbell for a personal best.",
+     "check": null
+    },
+    {
+     "id": "F1240",
+     "pk": "3854461937753464905",
+     "file": "19be87a6b57dde96_0.jpg",
+     "date": "2026-03-17",
+     "video": true,
+     "caption": "Client Elena deadlifts 90kg for a three-repetition personal best.",
+     "check": null
+    },
+    {
+     "id": "F1253",
+     "pk": "3858375296341188562",
+     "file": "43602d689b7d9992_0.jpg",
+     "date": "2026-03-22",
+     "video": true,
+     "caption": "Finn Crowther and a client celebrate 100 sessions with a certificate.",
+     "check": null
+    },
+    {
+     "id": "F1317",
+     "pk": "3871978940454113870",
+     "file": "4e75c00a2de34430_0.jpg",
+     "date": "2026-04-10",
+     "video": true,
+     "caption": "Workout logs show incline dumbbell press progress from January to April.",
+     "check": null
+    },
+    {
+     "id": "F1419",
+     "pk": "3896516567852102989",
+     "file": "fb48422b3a95a828_0.jpg",
+     "date": "2026-05-14",
+     "video": false,
+     "caption": "Smiling client displays a stopwatch recording a five-minute wall sit.",
+     "check": null
+    },
+    {
+     "id": "F1476",
+     "pk": "3907589296671734246",
+     "file": "04f0cc1eb3de304a_0.jpg",
+     "date": "2026-05-29",
+     "video": false,
+     "caption": "Sophie and client Amelie celebrate a 25-session milestone with a certificate.",
+     "check": null
+    },
+    {
+     "id": "F1478",
+     "pk": "3909511452834232497",
+     "file": "6ee920dd18dfe4d7_0.jpg",
+     "date": "2026-05-31",
+     "video": true,
+     "caption": "A client returns to barbell squats after 17 years in Dane's workout story.",
+     "check": null
+    },
+    {
+     "id": "F1524",
+     "pk": "3937357186884149627",
+     "file": "d94b6b33dbe65c2b_0.jpg",
+     "date": "2026-07-09",
+     "video": true,
+     "caption": "Branded before-and-after transformation showing Nikara's 30.4kg weight loss.",
+     "check": null
+    },
+    {
+     "id": "F1571",
+     "pk": "3966152124345066626",
+     "file": "a99ee2deee1eb168_0.jpg",
+     "date": "2026-08-18",
+     "video": false,
+     "caption": "A client celebrates Romanian deadlifts at 115kg for repetitions at Eltham.",
+     "check": null
+    },
+    {
+     "id": "F1584",
+     "pk": "3977063413687754483",
+     "file": "b12b824bd3cfce3f_0.jpg",
+     "date": "2026-09-02",
+     "video": true,
+     "caption": "A client celebrates 100 and 50 completed-workout milestones in Sophie's story.",
+     "check": null
+    }
+   ]
+  },
+  {
+   "key": "reviews",
+   "label": "Reviews",
+   "cover": "reviews",
+   "why": "Build trust through genuine Google review screenshots and real client testimonials.",
+   "frames": [
+    {
+     "id": "F0893",
+     "pk": "3581253217658904890",
+     "file": "d15dd7806bb58a0b_0.jpg",
+     "date": "2025-03-05",
+     "video": true,
+     "caption": "Five-star client review praising Marcus overlays footage of trainer and client.",
+     "check": null
+    },
+    {
+     "id": "F0894",
+     "pk": "3582121427354618408",
+     "file": "a3a6c2b162ed2f29_0.jpg",
+     "date": "2025-03-06",
+     "video": true,
+     "caption": "Jack's five-star review describes weight loss and strength gains over footage of Jamie.",
+     "check": null
+    },
+    {
+     "id": "F0906",
+     "pk": "3587318273425306464",
+     "file": "5b0689e5da37409c_0.jpg",
+     "date": "2025-03-13",
+     "video": true,
+     "caption": "Detailed Google review overlays a trainer and client gym photo.",
+     "check": null
+    },
+    {
+     "id": "F0928",
+     "pk": "3605306633091739645",
+     "file": "288fad6707593826_0.jpg",
+     "date": "2025-04-07",
+     "video": true,
+     "caption": "Five-star Camellia review overlays Guido coaching a client's dumbbell bench press.",
+     "check": null
+    },
+    {
+     "id": "F0931",
+     "pk": "3606110947565601604",
+     "file": "98867f29c400c016_0.jpg",
+     "date": "2025-04-08",
+     "video": true,
+     "caption": "Five-star testimonial praising Guido overlays Jamie supervising a client's bench press.",
+     "check": null
+    },
+    {
+     "id": "F0944",
+     "pk": "3618206963265606030",
+     "file": "eae320352b9c9575_0.jpg",
+     "date": "2025-04-25",
+     "video": true,
+     "caption": "Five-star Google testimonial praises Guido’s safe form coaching and tailored sessions over workout footage.",
+     "check": null
+    },
+    {
+     "id": "F1013",
+     "pk": "3732696017440582477",
+     "file": "cf35cfb2da0d7dc3_0.jpg",
+     "date": "2025-09-30",
+     "video": true,
+     "caption": "Five-star review overlays Jamie supervising a client's bench exercise.",
+     "check": null
+    },
+    {
+     "id": "F1402",
+     "pk": "3891520514217196030",
+     "file": "26916df45c1f136d_0.jpg",
+     "date": "2026-05-07",
+     "video": false,
+     "caption": "Five-star Google review praising Finn's guidance, accountability and strength results.",
+     "check": null
+    },
+    {
+     "id": "F1403",
+     "pk": "3891520874491100068",
+     "file": "b085b2dc411f8fbb_0.jpg",
+     "date": "2026-05-07",
+     "video": false,
+     "caption": "Five-star Google review praising Nabiha's clear explanations and structured coaching.",
+     "check": null
+    },
+    {
+     "id": "F1406",
+     "pk": "3891798499826544088",
+     "file": "ef512a437acdd29b_0.jpg",
+     "date": "2026-05-07",
+     "video": false,
+     "caption": "Five-star review screenshot praising Sophie's structure and appropriately challenging sessions.",
+     "check": null
+    },
+    {
+     "id": "F1496",
+     "pk": "3917555928006625778",
+     "file": "2c833860b58c6624_0.jpg",
+     "date": "2026-06-12",
+     "video": true,
+     "caption": "Cait's five-star Google review praises Teresa for supportive coaching and improved confidence.",
+     "check": null
+    },
+    {
+     "id": "F1519",
+     "pk": "3935212521875562537",
+     "file": "e658f8e393c0305a_0.jpg",
+     "date": "2026-07-06",
+     "video": true,
+     "caption": "Julia interviews a client with a microphone; apparent video testimonial.",
+     "check": null
+    },
+    {
+     "id": "F1525",
+     "pk": "3937387671155808228",
+     "file": "dcc04c50de3bf178_0.jpg",
+     "date": "2026-07-09",
+     "video": false,
+     "caption": "Client thanks Samantha after achieving three unassisted pull-ups.",
+     "check": null
+    }
+   ]
+  },
+  {
+   "key": "training",
+   "label": "Training",
+   "cover": "training",
+   "why": "Show approachable coaching, useful exercise explanations and supported sessions.",
+   "frames": [
+    {
+     "id": "F0896",
+     "pk": "3583395415573629001",
+     "file": "20d7eb1e80630529_0.jpg",
+     "date": "2025-03-08",
+     "video": true,
+     "caption": "Samantha demonstrates a lat pulldown while speaking.",
+     "check": null
+    },
+    {
+     "id": "F1102",
+     "pk": "3810509022609496347",
+     "file": "033b76719f3c5824_0.jpg",
+     "date": "2026-01-15",
+     "video": true,
+     "caption": "Dane supervises a female client exercising on a bench.",
+     "check": null
+    },
+    {
+     "id": "F1193",
+     "pk": "3841364264385507149",
+     "file": "b876319a9a9f531e_0.jpg",
+     "date": "2026-02-26",
+     "video": true,
+     "caption": "Caitlin demonstrates a lat pulldown while a client watches.",
+     "check": null
+    },
+    {
+     "id": "F1219",
+     "pk": "3847291072284712190",
+     "file": "dc13586c09a81614_0.jpg",
+     "date": "2026-03-07",
+     "video": true,
+     "caption": "Marathon runner Jean performs seated dumbbell shoulder presses.",
+     "check": null
+    },
+    {
+     "id": "F1236",
+     "pk": "3851634542503737450",
+     "file": "8ff9ff536414584c_0.jpg",
+     "date": "2026-03-13",
+     "video": true,
+     "caption": "Gabrielle and a smiling client give thumbs up beside a leg press.",
+     "check": null
+    },
+    {
+     "id": "F1391",
+     "pk": "3887020144170581462",
+     "file": "193eb7259e22e695_0.jpg",
+     "date": "2026-04-30",
+     "video": true,
+     "caption": "Dane spotting a client during a barbell bench press.",
+     "check": null
+    },
+    {
+     "id": "F1432",
+     "pk": "3897995910454401422",
+     "file": "0813664fb1a8a03f_0.jpg",
+     "date": "2026-05-16",
+     "video": true,
+     "caption": "Dane explaining dumbbell tricep kickbacks, with clear captions.",
+     "check": null
+    },
+    {
+     "id": "F1512",
+     "pk": "3928465834272354583",
+     "file": "8ab48e0ae067156a_0.jpg",
+     "date": "2026-06-27",
+     "video": true,
+     "caption": "Samantha introduces a gym equipment video at Snap Fitness Preston.",
+     "check": null
+    },
+    {
+     "id": "F1563",
+     "pk": "395734868423693751018485400199098480",
+     "file": "5d26602c0e7c8f39_0.jpg",
+     "date": "2026-08-05",
+     "video": true,
+     "caption": "Lincoln demonstrates a resistance-band warm-up stretch inside a Snap Fitness gym.",
+     "check": null
+    },
+    {
+     "id": "F1582",
+     "pk": "397400235012086796918624460165033081",
+     "file": "91b66b29b75872ce_0.jpg",
+     "date": "2026-08-28",
+     "video": true,
+     "caption": "Samantha demonstrates seated dumbbell shoulder-press positioning; clients exercise behind her.",
+     "check": null
+    },
+    {
+     "id": "F1589",
+     "pk": "3986462676968505550",
+     "file": "7f2f714a8bc252bd_0.jpg",
+     "date": "2026-09-15",
+     "video": true,
+     "caption": "Samantha introduces a dumbbell exercise explanation at Preston.",
+     "check": null
+    },
+    {
+     "id": "F1597",
+     "pk": "399604757022189547818638117764033081",
+     "file": "ad1afbf319e89648_0.jpg",
+     "date": "2026-09-28",
+     "video": true,
+     "caption": "Dane demonstrates squat depth on a plate-loaded squat machine.",
+     "check": null
+    },
+    {
+     "id": "F1604",
+     "pk": "3999720292108724530",
+     "file": "186685ecd847762d_0.jpg",
+     "date": "2026-10-03",
+     "video": true,
+     "caption": "George's upper-body workout story lists five exercises over 45 to 60 minutes.",
+     "check": null
+    },
+    {
+     "id": "F1608",
+     "pk": "4002423434508197681",
+     "file": "new4002423434508197681_0.jpg",
+     "date": "2026-10-07",
+     "video": true,
+     "caption": "George’s ‘Wanna get bouncy’ workout reshare (gm_.performance).",
+     "check": null
+    }
+   ]
+  },
+  {
+   "key": "team",
+   "label": "Team",
+   "cover": "team",
+   "why": "Introduce all sixteen current trainers through clear existing portraits and introductions.",
+   "frames": [
+    {
+     "id": "F0889",
+     "pk": "3579104131157655153",
+     "file": "f8a21aefc09d76a1_0.jpg",
+     "date": "2025-03-02",
+     "video": true,
+     "caption": "Marcus speaks to camera in his Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F0957",
+     "pk": "3643138586842974308",
+     "file": "63a5ef2d2f26a13e_0.jpg",
+     "date": "2025-05-29",
+     "video": true,
+     "caption": "Current trainer Samantha Konsol's portrait video cover at Snap Fitness.",
+     "check": null
+    },
+    {
+     "id": "F1000",
+     "pk": "3709070419438800627",
+     "file": "2fd97f27ad363de4_0.jpg",
+     "date": "2025-08-28",
+     "video": true,
+     "caption": "Lincoln Barker appears in a trainer portrait video wearing his Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F1050",
+     "pk": "3757351609098520526",
+     "file": "d5844779db8ae33b_0.jpg",
+     "date": "2025-11-03",
+     "video": true,
+     "caption": "Clear portrait of current trainer Dane in Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F1055",
+     "pk": "3760203582122708746",
+     "file": "11c99600d0c05745_0.jpg",
+     "date": "2025-11-06",
+     "video": true,
+     "caption": "Dane's trainer introduction posters at Preston include a first-session-free invitation.",
+     "check": null
+    },
+    {
+     "id": "F1058",
+     "pk": "3767813290748517119",
+     "file": "282b32bc3ca278c3_0.jpg",
+     "date": "2025-11-17",
+     "video": true,
+     "caption": "Current trainer Ahmad smiling in uniform against a Snap Fitness backdrop.",
+     "check": null
+    },
+    {
+     "id": "F1085",
+     "pk": "3798283459446668558",
+     "file": "b396d53494ca0c8b_0.jpg",
+     "date": "2025-12-29",
+     "video": false,
+     "caption": "Reshared portrait of current trainer Guido Monaci wearing his Snap Fitness uniform.",
+     "check": "Retain Guido's portrait without treating the story location as his current assignment; network.js places him at South Yarra."
+    },
+    {
+     "id": "F1093",
+     "pk": "3806834762342973955",
+     "file": "3f7d8251d7552692_0.jpg",
+     "date": "2026-01-10",
+     "video": true,
+     "caption": "Julia Sinni appears in a clear trainer portrait video wearing Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F1129",
+     "pk": "3824811970848042642",
+     "file": "871558063aaeb7cb_0.jpg",
+     "date": "2026-02-04",
+     "video": true,
+     "caption": "Sophie’s introduction with a gym selfie and training philosophy.",
+     "check": null
+    },
+    {
+     "id": "F1156",
+     "pk": "3833378847967106863",
+     "file": "df223a5e3a1efc1f_0.jpg",
+     "date": "2026-02-15",
+     "video": true,
+     "caption": "Emma’s trainer portrait appears as an embedded video post.",
+     "check": null
+    },
+    {
+     "id": "F1161",
+     "pk": "3834436557248351017",
+     "file": "0a4b8673b116b9a0_0.jpg",
+     "date": "2026-02-17",
+     "video": false,
+     "caption": "Teresa introduction card with portrait and coaching specialties.",
+     "check": null
+    },
+    {
+     "id": "F1177",
+     "pk": "3838784331049824331",
+     "file": "fd7c8daccd180c46_0.jpg",
+     "date": "2026-02-23",
+     "video": true,
+     "caption": "Caitlin coaches a client on gym equipment at West Footscray.",
+     "check": null
+    },
+    {
+     "id": "F1375",
+     "pk": "3882693737318565661",
+     "file": "07c0bd262b7cdf4d_0.jpg",
+     "date": "2026-04-24",
+     "video": false,
+     "caption": "Julia and a client smile together for a gym mirror selfie.",
+     "check": "Julia is current but has no gym assigned in network.js; do not add a suburb attribution."
+    },
+    {
+     "id": "F1570",
+     "pk": "3965538591644319375",
+     "file": "317d963bb39d62cd_0.jpg",
+     "date": "2026-08-17",
+     "video": true,
+     "caption": "Daniel appears in a trainer introduction video wearing his Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F1601",
+     "pk": "3997898360086532389",
+     "file": "daf4819ac0a824c0_0.jpg",
+     "date": "2026-09-30",
+     "video": true,
+     "caption": "Ida's current trainer portrait in Snap Fitness uniform.",
+     "check": null
+    },
+    {
+     "id": "F1603",
+     "pk": "3998939476072011310",
+     "file": "2e4f4a4b14d47f0e_0.jpg",
+     "date": "2026-10-02",
+     "video": true,
+     "caption": "George's current trainer portrait in Snap Fitness uniform.",
+     "check": null
+    }
+   ]
+  },
+  {
+   "key": "gyms",
+   "label": "Gyms",
+   "cover": "gyms",
+   "why": "Help local prospects recognise current clubs through location-tagged stories and gym views.",
+   "frames": [
+    {
+     "id": "F0661",
+     "pk": "3468380185786300584",
+     "file": "9c71affe9cb2ede4_0.jpg",
+     "date": "2024-09-30",
+     "video": false,
+     "caption": "Snap Fitness Essendon's street entrance in an existing location-tagged story.",
+     "check": null
+    },
+    {
+     "id": "F1189",
+     "pk": "3840952331093914131",
+     "file": "33a633d0300ca4cd_0.jpg",
+     "date": "2026-02-26",
+     "video": true,
+     "caption": "Wide view of the gym floor, equipment and reception area.",
+     "check": null
+    },
+    {
+     "id": "F1216",
+     "pk": "3846757219258280864",
+     "file": "d61d943aec0f6fbb_0.jpg",
+     "date": "2026-03-06",
+     "video": false,
+     "caption": "Nighttime exterior showing the illuminated Snap Fitness Preston entrance.",
+     "check": null
+    },
+    {
+     "id": "F1222",
+     "pk": "3848629189368455925",
+     "file": "a3489b141de61ab7_0.jpg",
+     "date": "2026-03-08",
+     "video": true,
+     "caption": "Nabiha coaches a client's trap-bar deadlift at Ashburton.",
+     "check": null
+    },
+    {
+     "id": "F1294",
+     "pk": "3866812183372323201",
+     "file": "30c3f52bd7826e42_0.jpg",
+     "date": "2026-04-03",
+     "video": false,
+     "caption": "Clear view of Snap Fitness Footscray reception and entrance.",
+     "check": null
+    },
+    {
+     "id": "F1353",
+     "pk": "3875594266999759005",
+     "file": "216a806fc6620355_0.jpg",
+     "date": "2026-04-15",
+     "video": true,
+     "caption": "Emma introduces herself on camera inside Snap Fitness Botanic Ridge.",
+     "check": null
+    },
+    {
+     "id": "F1556",
+     "pk": "3953048225368229554",
+     "file": "d7c5d891526b6424_0.jpg",
+     "date": "2026-07-31",
+     "video": true,
+     "caption": "Reshared collaborative video showing Ahmad among gym equipment.",
+     "check": null
+    }
+   ]
+  },
+  {
+   "key": "careers",
+   "label": "Careers",
+   "cover": "careers",
+   "why": "Show prospective trainers mentoring, Emma's experience and the application route.",
+   "frames": [
+    {
+     "id": "F1487",
+     "pk": "3911895799466755513",
+     "file": "6955281ca84a2c28_0.jpg",
+     "date": "2026-06-04",
+     "video": true,
+     "caption": "Jamie spots a client in the rent-free trainer recruitment story with a join-the-team link.",
+     "check": "Confirm current vacancies, paid mentoring and the 100+ leads in 12 weeks claim before using."
+    },
+    {
+     "id": "F1551",
+     "pk": "3951608098540442272",
+     "file": "69965e80430d2edc_0.jpg",
+     "date": "2026-07-29",
+     "video": true,
+     "caption": "FIT College thanks Jamie for a practical presentation to aspiring personal trainers.",
+     "check": null
+    },
+    {
+     "id": "F1561",
+     "pk": "395670305688356963118082646198657745",
+     "file": "2949f37235ba34b3_0.jpg",
+     "date": "2026-08-05",
+     "video": true,
+     "caption": "Emma explains why she chose Jamie Fitness beside the recruitment banner.",
+     "check": "Confirm now-hiring wording and banner benefits remain current; check the full spoken testimonial."
+    },
+    {
+     "id": "F1562",
+     "pk": "3956703764274990540",
+     "file": "7739b94dca680c4d_0.jpg",
+     "date": "2026-08-05",
+     "video": true,
+     "caption": "The real recruitment banner outlines rent-free training, leads, an assistant and weekly mentoring.",
+     "check": "Confirm banner benefits and the application QR destination remain current."
+    }
+   ]
+  }
+ ]
+}
